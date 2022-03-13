@@ -4,7 +4,7 @@ import Users from '@/components/users/Users.vue'
 import UserTodos from '@/components/users/UserTodos.vue'
 import Home from '@/components/Home.vue'
 import Login from '@/components/Login.vue'
-import CreateUser from '@/components/CreateUser.vue'
+import CreateUser from '@/components/createUser/CreateUser.vue'
 
 
 const routes = [

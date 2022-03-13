@@ -34,7 +34,7 @@
       </form>
 
 			<button class="button" >
-				<router-link to='/'>Save and go Back</router-link>
+				<router-link to='/'>Go Back</router-link>
 			</button>
 
     </div>

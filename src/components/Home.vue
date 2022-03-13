@@ -10,7 +10,7 @@
 <script>
 import Header from './Header.vue'
 import Login from './Login.vue'
-import AddUser from './AddUser.vue'
+import AddUser from './createUser/AddUser.vue'
 import BaseUsers from './users/BaseUsers.vue'
 
 export default {
