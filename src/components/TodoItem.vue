@@ -24,6 +24,7 @@ export default {
       required: true,
     }
   },
+
   data() {
     return {
       'id': this.todo.id,
@@ -33,16 +34,13 @@ export default {
       'beforeEditCache': '',
     }
   },
+
   watch: {
     checkAll() {
-      // if (this.checkAll) {
-      //   this.completed = true
-      // } else {
-      //   this.completed = this.todo.completed
-      // }
       this.completed = this.checkAll ? true : this.todo.completed
     }
   },
+
   directives: {
     focus: {
       inserted: function (el) {
@@ -50,6 +48,7 @@ export default {
       }
     }
   },
+
   methods: {
     removeTodo(id) {
       this.$emit('removedTodo', id)
